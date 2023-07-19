@@ -30,7 +30,7 @@ namespace OpenCvPractice.MotionDetection {
                 max_y = 0;
 
                 foreach (var p in contours.contours) {
-                    Rect boudningRect = Cv2.BoundingRect(p);
+                    //Rect boudningRect = Cv2.BoundingRect(p);
 
                     for(int i = 0; i < p.Length; i++) {
                         min_x = Math.Min(min_x, p[i].X);
