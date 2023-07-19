@@ -3,7 +3,7 @@
 namespace OpenCvPractice.MotionDetection {
     public partial class MotionDetector {
         public Mat Detection(bool MorphView) {
-            Mat morphElement = Cv2.GetStructuringElement(MorphShapes.Cross, new OpenCvSharp.Size(3, 3));
+            Mat morphElement = Cv2.GetStructuringElement(MorphShapes.Cross, new Size(3, 3));
             Mat first = cam.GetFrame().CvtColor(ColorConversionCodes.BGR2GRAY);
             Mat second = cam.GetFrame();
             Mat second_gray = second.CvtColor(ColorConversionCodes.BGR2GRAY);
