@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OpenCvPractice.Camera.CameraCapture" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAACAAAAQAUAQAIAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Camera\CamControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OpenCvPractice.Contours.Contours">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="OpenCvPractice.Contours.Contours.Shape" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Contours\ContourDrawing.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAIAABAAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contours\Contour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenCvPractice.MotionDetection.MotionDetector">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAACAAAIAAABAAAAAAEAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>MotionDetection\MotionDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
