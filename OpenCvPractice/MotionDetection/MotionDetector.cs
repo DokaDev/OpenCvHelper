@@ -13,8 +13,11 @@ namespace OpenCvPractice.MotionDetection {
             Cv2.Threshold(diff, diff, 25, 255, ThresholdTypes.Binary);
             Cv2.MorphologyEx(diff, morph, MorphTypes.Open, morphElement);
 
-            if(MorphView)
+            if (MorphView) {
                 Cv2.ImShow("morph", morph);
+                Cv2.ImShow("Original Source", second);
+            }
+                
 
             Mat dst = morph.Clone();
             Cv2.CvtColor(dst, dst, ColorConversionCodes.GRAY2BGR);
