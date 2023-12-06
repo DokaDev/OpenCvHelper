@@ -2,7 +2,7 @@
 using OpenCvPractice.MotionDetection;
 using OpenCvSharp;
 
-MotionDetection();
+FaceDetection();
 
 void MotionDetection() {
     using(OpenCvPractice.Camera.CameraCapture cam = new(3)) {
@@ -22,8 +22,8 @@ void MotionDetection() {
 }
 
 void FaceDetection() {
-    CascadeClassifier faceCascade = new("haarcascades/haarcascade_frontalface_default.xml");
-    CascadeClassifier smileCascade = new("haarcascades/haarcascade_smile.xml");
+    CascadeClassifier faceCascade = new("haarcascade_frontalface_default.xml");
+    CascadeClassifier smileCascade = new("haarcascade_smile.xml");
 
     using(OpenCvPractice.Camera.CameraCapture cam = new(3)) {
         while(true) {
